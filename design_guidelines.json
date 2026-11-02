@@ -1,0 +1,120 @@
+{
+  "project_name": "CareerTax AI",
+  "tagline": "Build a Better Resume. Plan a Smarter Salary.",
+  "theme": "Light",
+  "typography": {
+    "heading_font": "Outfit, sans-serif",
+    "body_font": "Plus Jakarta Sans, sans-serif",
+    "mono_font": "JetBrains Mono, monospace",
+    "font_imports": "@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');",
+    "hierarchy": {
+      "h1": "text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 leading-[1.15]",
+      "h2": "text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-slate-900 leading-tight",
+      "h3": "text-xl sm:text-2xl font-semibold text-slate-900 tracking-tight",
+      "h4": "text-lg sm:text-xl font-semibold text-slate-800",
+      "body": "text-base text-slate-600 leading-relaxed font-normal",
+      "body_sm": "text-sm text-slate-5-0 leading-normal",
+      "caption": "text-xs font-medium uppercase tracking-widest text-slate-500",
+      "code_mono": "font-mono text-xs text-teal-700 bg-teal-50/80 px-2 py-0.5 rounded border border-teal-200/50"
+    }
+  },
+  "colors": {
+    "archetype": "Architectural Professional & Financial Precision",
+    "palette": {
+      "background": "#F8FAFC",
+      "background_alt": "#F1F5F9",
+      "card_bg": "#FFFFFF",
+      "card_border": "#E2E8F0",
+      "card_hover_border": "#CBD5E1",
+      "primary_navy": "#0F172A",
+      "charcoal": "#1E293B",
+      "slate_muted": "#64748B",
+      "accent_teal": "#0D9488",
+      "accent_teal_light": "#CCFBF1",
+      "accent_teal_dark": "#0F766E",
+      "accent_blue": "#0284C7",
+      "accent_blue_light": "#E0F2FE",
+      "accent_indigo": "#4338CA",
+      "status_success": "#16A34A",
+      "status_warning": "#D97706",
+      "status_danger": "#DC2626",
+      "status_info": "#2563EB"
+    },
+    "ats_score_legend": {
+      "strong": "bg-emerald-50 text-emerald-700 border-emerald-200 (Score 75-100)",
+      "partial": "bg-amber-50 text-amber-700 border-amber-200 (Score 45-74)",
+      "missing": "bg-rose-50 text-rose-700 border-rose-200 (Score 0-44)"
+    },
+    "regime_badges": {
+      "enacted": "bg-emerald-100 text-emerald-800 border-emerald-300 font-semibold px-2.5 py-0.5 rounded-full text-xs",
+      "provisional": "bg-sky-100 text-sky-800 border-sky-300 font-semibold px-2.5 py-0.5 rounded-full text-xs"
+    }
+  },
+  "spacing_and_layout": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "section_gap": "py-16 lg:py-24",
+    "card_padding": "p-6 sm:p-8",
+    "grid_bento": "grid grid-cols-1 md:grid-cols-12 gap-6 lg:gap-8",
+    "table_style": "w-full text-left text-sm border-separate border-spacing-0 rounded-xl overflow-hidden border border-slate-200 bg-white shadow-sm"
+  },
+  "surface_strategies": {
+    "navbar": "sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200/80 shadow-xs",
+    "card": "bg-white rounded-2xl border border-slate-200/90 shadow-[0_2px_12px_-2px_rgba(15,23,42,0.06)] hover:shadow-[0_8px_24px_-4px_rgba(15,23,42,0.1)] transition-all duration-200",
+    "card_accent": "bg-gradient-to-br from-white via-slate-50/50 to-teal-50/30 rounded-2xl border border-teal-200/70 shadow-sm",
+    "stat_widget": "bg-white rounded-xl border border-slate-200 p-5 shadow-xs flex flex-col justify-between"
+  },
+  "image_urls": {
+    "hero_office": {
+      "url": "https://images.unsplash.com/photo-1770627016447-cb9d29ed0398?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA4Mzl8MHwxfHNlYXJjaHw0fHxpbmRpYW4lMjBwcm9mZXNzaW9uYWwlMjBjb3Jwb3JhdGUlMjBvZmZpY2UlMjBkZXNrJTIwbGFwdG9wJTIwcmVzdW1lJTIwc2FsYXJ5fGVufDB8fHx8MTc5MjM5MzIzOHww&ixlib=rb-4.1.0&q=85",
+      "description": "Indian corporate professional working at high-tech clean office desk",
+      "category": "hero_landing"
+    },
+    "resume_desk": {
+      "url": "https://images.pexels.com/photos/4101343/pexels-photo-4101343.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Clipboard with resume document and laptop on clean executive desk",
+      "category": "resume_module"
+    },
+    "finance_calculator": {
+      "url": "https://images.unsplash.com/photo-1762427354051-a9bdb181ae3b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwyfHxmaW5hbmNpYWwlMjBkYXNoYm9hcmQlMjBjaGFydHMlMjBjYWxjdWxhdG9yJTIwb2ZmaWNlJTIwZGVzayUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE3OTIzOTMyNDR8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Financial charts, calculator, and organized analytics desk",
+      "category": "ctc_tax_module"
+    },
+    "executive_male": {
+      "url": "https://images.unsplash.com/photo-1771244688590-1e481dba1b5a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA4Mzl8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjBwcm9mZXNzaW9uYWwlMjBjb3Jwb3JhdGUlMjBvZmZpY2UlMjBkZXNrJTIwbGFwdG9wJTIwcmVzdW1lJTIwc2FsYXJ5fGVufDB8fHx8MTc5MjM5MzIzOHww&ixlib=rb-4.1.0&q=85",
+      "description": "Indian corporate executive with laptop",
+      "category": "testimonials"
+    }
+  },
+  "key_components_guidelines": {
+    "ats_optimizer_dashboard": "Side-by-side or tabbed panel: Left side for uploaded Resume text/score preview & JD text; Right side for weighted score gauge (0-100), sub-scores (Format 20%, Keywords 40%, Experience 20%, Skills 20%), 12-section suggestion report accordion with copy buttons, revision diff view (original vs revised), and email/cover letter generator modals.",
+    "ctc_calculator_grid": "Dual-mode input (CTC to Structure OR Desired Take-home to CTC). Breakdown table with columns: Component, Annual Amount (₹), Monthly Amount (₹), In-CTC (Yes/No), Tax Status (Exempt/Taxable/Partial). 12-month projection grid (April-March) with interactive monthly override inputs, HRA/LTA claim toggles, and instant PDF/Excel payslip view.",
+    "tax_planner_comparison": "Side-by-side Old Regime vs New Regime comparison matrix for FY 2025-26, 2026-27, 2027-28, 2028-29 with version status badges ('Enacted' / 'Provisional'). Highlight recommended regime with clear savings callout badge. Section 80C, 80D, NPS (80CCD 1B), HRA, 80TTA deduction inputs with immediate tax delta update and downloadable Excel workbook generator.",
+    "admin_panel": "Dense data dashboard for Tax Rules (JSON & Tier Editor), ATS Rubric Weights, User Management, and System Audit Logs with search, filters, and JSON validator."
+  },
+  "testing_and_accessibility": {
+    "data_testid_requirement": "All interactive elements (buttons, inputs, tabs, modal triggers, export actions, tab switches, file dropzone) MUST have kebab-case data-testid attributes (e.g. data-testid='ats-resume-upload-input', data-testid='ctc-calculate-button', data-testid='tax-regime-switch').",
+    "inr_formatting": "Format all currency amounts in Indian Numbering System (e.g., ₹12,50,000 instead of ₹1,250,000) with proper rupee symbol ₹."
+  },
+  "instructions_to_main_agent": [
+    "Ensure the Navbar includes all required links: Home, Resume Enhancement, CTC Calculator, Tax Planner, My Documents, My Calculations, Pricing (disabled badge), Login/Sign Up, and User Profile menu.",
+    "Use Lucide-React icons or Phosphor icons for clean, modern visual cues across all cards and metrics.",
+    "Do NOT use pure black background. Keep background light (#F8FAFC) as requested by user choices.",
+    "Ensure all numbers, CTC breakdowns, ATS scores, and tax savings are interactive and calculate dynamically based on real Indian tax slabs (Standard Deduction ₹75,000 for New Regime FY 25-26, Surcharge slabs, Cess 4%, etc.).",
+    "Provide clear disclaimers on home landing page regarding financial advice."
+  ],
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "You tend to converge toward generic, 'on distribution' outputs. In frontend design, this creates what users call the 'AI slop' aesthetic. Avoid this: make creative, distinctive frontends that surprise and delight.",
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy",
+    "Use glass-morphism effects with backdrop filters (12-24px blur)",
+    "You MUST NOT apply universal transition. Eg: transition: all. This results in breaking transforms. Always add transitions for specific interactive elements like button, input excluding transforms",
+    "You MUST NOT center align the app container, ie do not add .App { text-align: center; } in the css file. This disrupts the human natural reading flow of text",
+    "Always use modern button styles like pill-shaped, or sharp button with interaction animations & color relevant to the app style",
+    "NEVER: use AI assistant Emoji characters like 🤖🧠💭💡🔮🎯 etc for icons.",
+    "Every interaction needs micro-animations - hover states, transitions, parallax effects, and entrance animations. Static = dead.",
+    "Use 2-3x more spacing than feels comfortable. Cramped designs look cheap.",
+    "Subtle grain textures, noise overlays, custom cursors, selection states, and loading animations: separates good from extraordinary.",
+    "All interactive and key informational elements MUST include a data-testid attribute to facilitate robust automated testing."
+  ]
+}
