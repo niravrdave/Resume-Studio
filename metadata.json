@@ -1,0 +1,7 @@
+{
+  "name": "CareerTax AI",
+  "description": "Build a Better Resume. Plan a Smarter Salary.",
+  "permissions": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
